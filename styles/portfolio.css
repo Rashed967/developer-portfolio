@@ -215,3 +215,29 @@ main {
 .contact .section-title{
     text-align: left;
 }
+.contact .section-description{
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    border: 0;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+}
+
+.contact input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
