@@ -210,3 +210,8 @@ main {
     color: #FFFFFF;
     padding: 19px 17px;
 }
+
+/* contact styles  */
+.contact .section-title{
+    text-align: left;
+}
