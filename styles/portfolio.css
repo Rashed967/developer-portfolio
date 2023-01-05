@@ -21,6 +21,7 @@ section {
     font-size: 20px;
     padding: 18px 35px;
     border: 0;
+    cursor: pointer;
 }
 
 /* header and navigation styles  */
@@ -52,6 +53,13 @@ nav ul li {
     margin-left: 50px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+}
+
 /* banner styles  */
 .banner {
     margin: 0 200px;
@@ -77,10 +85,12 @@ nav ul li {
     font-size: 18px;
     margin-bottom: 30px;
 }
-.btn-phone{
+
+.btn-phone {
     background-color: transparent;
     color: #FD6E0A;
     margin-left: 30px;
+    cursor: pointer;
     border: 1px solid #FD6E0A;
 }
 
@@ -205,7 +215,7 @@ main {
     color: #757575;
 }
 
-.resume-btn{
+.resume-btn {
     margin-top: 50px;
     text-align: center;
 }
@@ -218,31 +228,35 @@ main {
 }
 
 /* contact styles  */
-.contact .section-title{
+.contact .section-title {
     text-align: left;
 }
-.contact .section-description{
+
+.contact .section-description {
     margin-bottom: 30px;
 }
-.contact{
+
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     border: 0;
     margin-bottom: 24px;
     padding: 18px 30px;
 }
 
-.contact input{
+.contact input {
     height: 64px;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
     display: inline-block;
     margin-right: 15px;
