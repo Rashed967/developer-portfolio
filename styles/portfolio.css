@@ -148,7 +148,7 @@ main {
 }
 
 .what-i-do .section-description {
-    padding: 0 150px;
+    padding: 0 10px;
 }
 
 .skills-container {
@@ -260,4 +260,63 @@ textarea {
     text-decoration: none;
     display: inline-block;
     margin-right: 15px;
+}
+
+
+/* responsive design css start  */
+/* small devics */
+@media screen and (max-width : 576px) {
+    .hide {
+        display: none;
+    }
+
+    .skills-container,
+    .resume-content,
+    .contact {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .about {
+        margin-top: 80px;
+        padding: 30px 20px;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact {
+        padding: 30px 20px;
+    }
+
+    .contact input[type="text"],input[type="email"], textarea {
+        padding: 0;
+        padding-left: 10px;
+    }
+
+}
+
+/* medium devics */
+@media screen and (min-width : 577px) and (max-width : 992px) {
+    .about, .contact{
+        flex-direction: column;
+    }
+    .skills-container{
+        flex-wrap: wrap;
+        /* gap: 8px; */
+        justify-content: space-between;
+    }
+    .skill {
+        width: 42%;
+        padding: 30px;
+    }
+    .contact input[type="text"],input[type="email"], textarea {
+        padding: 0;
+        padding-left: 10px;
+    }
+    .contact{
+        padding: 43px 49px;
+    }
 }
